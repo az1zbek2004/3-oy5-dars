@@ -1,0 +1,30 @@
+@import "_header.scss";
+@import "_section.scss";
+
+body{
+    background: #F7F7F9;
+    font-family: 'Gilda Display';
+    font-weight: 400;
+    font-style: normal;
+    .block{
+
+        width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+        background:
+         url(../image/Rectangle-1.png) no-repeat top left,
+         url(../image/Rectangle.png) no-repeat bottom right,
+         #F7F7F9;
+        background-repeat: no-repeat;
+
+    .container{
+            max-width: 1110px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 30px;
+        }
+    }
+}
+
+

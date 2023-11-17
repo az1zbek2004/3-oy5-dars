@@ -1,0 +1,58 @@
+// hero section style 
+$transition:all 0.5s;
+$color:#293A3C;
+$button-color:#0061FE;
+
+%textTemplate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    @extend %textTemplate;
+    position: relative;
+
+    .section__text{
+
+        margin-top: -200px;
+        h1{
+            width: 541px;
+            color: $color;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 65px;
+            margin-bottom: 25px;
+        }
+
+        p{
+            width: 571px;
+            color:$color;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 155.556% */
+            margin-bottom: 80px;
+        }
+
+        .section__text_button{
+            padding: 22px 55.5px;
+            border-radius: 10px;
+            background: $button-color;
+            border:2px solid $button-color;
+            transition: $transition;
+            cursor: pointer;
+
+            text-align: center;
+            color:#FFF;
+            font-size: 20px;
+            font-style: normal;
+            &:hover{
+                color:$button-color;
+                background-color:#FFF;
+                border:2px solid $button-color;
+            }
+        }
+    }
+}
